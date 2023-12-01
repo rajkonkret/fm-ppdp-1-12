@@ -87,7 +87,7 @@ print(f"Porównanie {a} >= {b}", a >= b)
 print(f"Porównanie {a} <= {b}", a <= b)
 print(f"Porównanie {a} != {b}", a != b)  # rózne
 
-# Porównanie 8 > 7 True
+# Porównanie 8 > 7 True  ##
 # Porównanie 8 < 7 False
 # Porównanie 8 == 7 False
 # Porównanie 8 >= 7 True
