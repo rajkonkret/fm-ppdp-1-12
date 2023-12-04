@@ -25,3 +25,4 @@ print("Dalsza cześć programy")
 # moze byc if lu match case
 # ma ładnie wydrukować wynik działania
 # Dodawanie 1 + 6 = 7
+print(eval("2 + 5"))  # 7
