@@ -39,3 +39,23 @@ print(empty_dict.get('wiek'))
 print(empty_dict.get('wiek2', 'default'))  # default
 # print(empty_dict['wiek2'])  # KeyError: 'wiek2'
 # 11:10
+print(empty_dict.pop('wiek'))
+empty_dict['age'] = 45
+print(empty_dict)
+print(empty_dict.popitem())  # ('age', 45)
+empty_dict.clear()
+print(empty_dict)  # {}
+
+my_dict = dictionary.copy()  # kopiowanie elemntów
+print(my_dict)  # {'x': 2, 'y': 2, 'z': 3}
+# napisac program, ktory bedzie działał jak słownik angielsko-polski
+# kaggle
+# mockaroo.com
+dict_word = {'name': 'imie', 'castle': 'zamek', 'water': 'woda'}
+print(f"Potrafię przetłumaczyć : {dict_word.keys()}")
+key = input("Podaj słowko do przetłumaczenia")  # str()
+print(dict_word[key.lower().replace(" ", "")])
+# input zwracas tring
+a = float(input("Podaj pierwszą liczbę"))
+b = input("Podaj drugą liczbę")
+print(a + int(b))
