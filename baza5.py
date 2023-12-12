@@ -5,7 +5,6 @@ engine = create_engine('sqlite:///:memory:')
 # engine = create_engine("oracle+cx_oracle://scott:tiger@localhost:1521/?service_name=mydb")
 
 
-
 Base = declarative_base()
 
 
