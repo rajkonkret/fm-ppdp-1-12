@@ -21,3 +21,4 @@ finally:
     if sql_connection:
         sql_connection.close()
         print("Baza została zamknięta")
+# 11:10
