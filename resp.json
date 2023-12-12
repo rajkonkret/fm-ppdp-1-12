@@ -1,0 +1,66 @@
+{
+  'results': [
+    {
+      'gender': 'male',
+      'name': {
+        'title': 'Mr',
+        'first': 'Humberto',
+        'last': 'Haro'
+      },
+      'location': {
+        'street': {
+          'number': 6072,
+          'name': 'Cerrada Sandoval'
+        },
+        'city': 'Tanlajas',
+        'state': 'Zacatecas',
+        'country': 'Mexico',
+        'postcode': 93950,
+        'coordinates': {
+          'latitude': '26.6815',
+          'longitude': '-55.5928'
+        },
+        'timezone': {
+          'offset': '-9:00',
+          'description': 'Alaska'
+        }
+      },
+      'email': 'humberto.haro@example.com',
+      'login': {
+        'uuid': '66195dfe-ebd3-4df0-a33c-79f7a38dba4f',
+        'username': 'brownrabbit532',
+        'password': 'claude',
+        'salt': '6SZmY7ci',
+        'md5': '094dbd4550387a3c05bfb4ba13999c03',
+        'sha1': 'bb4b47659ac45d868b8b047417b0eadd95caa5c5',
+        'sha256': 'e5dfa7ed23e970f2e015c27820f7deb4bca9ef1aa96ef8a1b4408179da23aa3f'
+      },
+      'dob': {
+        'date': '1976-09-06T17:27:44.341Z',
+        'age': 47
+      },
+      'registered': {
+        'date': '2021-04-25T03:00:29.091Z',
+        'age': 2
+      },
+      'phone': '(661) 587 6397',
+      'cell': '(649) 169 8622',
+      'id': {
+        'name': 'NSS',
+        'value': '19 22 82 1645 0'
+      },
+      'picture': {
+        'large': 'https://randomuser.me/api/portraits/men/45.jpg',
+        'medium': 'https://randomuser.me/api/portraits/med/men/45.jpg',
+        'thumbnail': 'https://randomuser.me/api/portraits/thumb/men/45.jpg'
+      },
+      'nat': 'MX'
+    }
+  ],
+  'info': {
+    'seed': '8c12d697c6d4a45b',
+    'results': 1,
+    'page': 1,
+    'version': '1.4'
+  }
+}
