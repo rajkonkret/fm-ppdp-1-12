@@ -2,6 +2,9 @@ from sqlalchemy import Column, Integer, String, ForeignKey, create_engine
 from sqlalchemy.orm import relationship, sessionmaker, declarative_base
 
 engine = create_engine('sqlite:///:memory:')
+# engine = create_engine("oracle+cx_oracle://scott:tiger@localhost:1521/?service_name=mydb")
+
+
 
 Base = declarative_base()
 
